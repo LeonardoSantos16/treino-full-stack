@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <style>
+        @import url('~lucide-static/font/Lucide.css');
+        </style>
+    <title>formulario convite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="brand">
+        <img src="./assets/Logo.svg" alt="logo">
+        <h1 class="title-brand">Festivite</h1>
+        <p class="description">Crie um convite digital para o seu evento</p>
+    </div>
+    <container-forms>
+        <h1>Crie seu convite</h1>
+        <fieldset>
+            <legend>
+                <i class="ph ph-calendar-blank"></i>
+                Sobre o evento
+            </legend>
+            <div class="input-wrapper">
+                <label for="title">Título</label>
+                <input type="text" placeholder="Nome do evento" id="title" name="title"/>
+            </div>
+            <div class="container-input">
+                <div class="input-wrapper">
+                    <label for="date-begin">Início</label>
+                    <input type="date" id="date-begin" name="date-begin"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="date-end">Fim</label>
+                    <input type="date-end" id="date-end" name="date-end"/>
+                </div>
+            </div>
+            <div class="container-input">
+                <div class="input-wrapper">
+                    <label for="type">Tipo</label>
+                    <input type="radio" value="classroom" name="type"/>
+                    <input type="radio" value="online" name="type"/>
+
+                </div>
+                <div class="input-wrapper">
+                    <label for="local">Link ou endereço</label>
+                    <input type="text" id="local" name="local"/>
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <label for="description">Descrição</label>
+                <input type="text" id="description" name="description"/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <div class="icon-paintbrush-vertical"></div>
+              Personalização
+            </legend>
+            <div class="input-wrapper">
+                <label for="title">Cor principal</label>
+                <input type="radio" value="purple" name="color"/>
+                <input type="radio" value="blue" name="color"/>
+                <input type="radio" value="accent-purple" name="color"/>
+                <input type="radio" value="pink" name="color"/>
+                <input type="radio" value="danger" name="color"/>
+                <input type="radio" value="orange" name="color"/>
+                <input type="radio" value="yellow" name="color"/>
+                <input type="radio" value="gleen" name="color"/>
+                <input type="radio" value="cyan" name="color"/>
+            </div>
+            <div class="input-wrapper">
+                <label for="theme">Tema do evento</label>
+                <input type="radio" value="Aniversario" name="theme">
+                <input type="radio" value="Infantil" name="theme">
+                <input type="radio" value="Formatura" name="theme">
+                <input type="radio" value="Casamento" name="theme">
+                <input type="radio" value="Chá de bebê" name="theme">
+                <input type="radio" value="Chá de panela" name="theme">
+                <input type="radio" value="Carnaval" name="theme">
+                <input type="radio" value="Páscoa" name="theme">
+                <input type="radio" value="São João" name="theme">
+                <input type="radio" value="Halloween" name="theme">
+                <input type="radio" value="Natal" name="theme">
+                <input type="radio" value="Outro" name="theme">
+            </div>
+            <div class="container-input">
+                <div class="input-wrapper">
+                    <label for="style">Estilo</label>
+                    <input type="checkbox" name="style" id="style">
+                </div>
+                <div class="input-wrapper">
+                    <label for="picture">Foto de capa</label>
+                    <input type="image" src="" alt="selecionar imagem">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <div class="icon-contact"></div>
+              Dados para contato
+            </legend>
+            <div class="input-wrapper">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Nome completo"/>
+            </div>
+            <div class="container-input">
+                <div class="input-wrapper">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="exemplo@email.com"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="telephone">Telefone</label>
+                    <input type="text" name="telephone" placeholder="(99) 99999-9999"/>
+                </div>
+            </div>
+        </fieldset>
+        <footer>
+            <div class="container-checkbox">
+                <label></label><input type="checkbox" name="term" value="politicy">Li e concordo com os Termos e Condições e com a Política de Privacidade</label>
+                <label><input type="checkbox" name="term" value="email-check">Aceito receber atualizações e promoções por e-mail</label>
+                <label><input type="checkbox" name="term" value="sms">Aceito receber atualizações e promoções por SMS</label>
+            </div>
+        </footer>
+        <button type="submit">
+            <div class="icon-ticket"></div>
+            Gerar convite
+        </button>
+    </container-forms>
+
+</body>
+</html>
