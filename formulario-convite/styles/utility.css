@@ -1,0 +1,42 @@
+.logo{
+    font-family: var(--font-leckerli);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    line-height: auto;
+
+}
+
+.heading-md{
+    font-family: var(--font-baloo);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: auto;
+
+}
+
+.heading-sm{
+    font-family: var(--font-baloo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: auto;
+
+}
+
+.body-md{
+    font-family: var(--open-sans);
+    font-size: 16px;
+    line-height: auto;
+}
+
+.body-sm{
+    font-family: var(--open-sans);
+    font-size: 14px;
+    line-height: auto;
+}
+
+.body-xs{
+    font-family: var(--open-sans);
+    font-size: 12px;
+    line-height: auto;
+}
